@@ -21,6 +21,8 @@
 //   .catch((error) => {
 //     console.log(error.message);
 //   });
+// then untuk menangkap resolve
+// catch untuk menangkap reject
 
 
 const cekHariKerja = (day) => {
