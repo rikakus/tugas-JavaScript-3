@@ -41,6 +41,7 @@ const cekHariKerja = (day) => {
           reject(new Error("Hari ini bukan hari kerja"));
         }
       } catch (error) {
+        // untuk menampilkan pesan eror jida ada eror
         reject(new Error("Terjadi Kesalahan saat memproses !"));
       }
     }, 3000);
